@@ -7,8 +7,10 @@ Code snippets for Spark! demos
 https://git-scm.com/downloads
 Download the appropriate version for your operating system.
 
-## Clone (or fork) this repo locally
+## Make a GitHub account
+https://github.com/
 
+## Clone (or fork) this repo locally
 ### Using a command line (or Git Bash) run
 git clone https://github.com/BuechnerGIS/SparkDemo.git
 
