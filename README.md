@@ -17,20 +17,32 @@ Code snippets for Spark! demos
 - Change directories into the SparkDemo folder
   - `cd ./SparkDemo`
 
-4.) Configure your environment
+4.) (Optionally) Download Visula Studio Code
+- https://code.visualstudio.com/
+
+5.) Install Python (if it's not already installed) - *This is tested using Python 3.12*.
+- If using VSCode, open a `Git Bash` terminal.
+- If using Git Bash, right click in a Windows Explorer and select `open Git Bash here`.
+- Type `python` and/or `python3`. If an interpreter comes up, it's installed! If not... https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe.
+- Check "Add python.exe to PATH".
+- Choose Customize installation install: `pip`, `Python test suite`, and `py launcher`.
+- Customize the install location to somewhere you will remember. I usually do `C:\Python`.
+- Add the path to the Python folder to your system environment variables.
+
+6.) Configure your environment (back in the terminal)
 - Create a python virtual environment
-  - `python3 -m venv ./venv`
+  - `python -m venv ./venv`
 - Activate the virtual environment
   - _Windows_
-    - `./venv/bin/activate`
-  - _Mac/Linux_
-    - `source ./venv/bin/activate`
-- Install modules
-  - `python3 -m pip install -r ./requirements.txt`
+    - `./venv/Scripts/activate.bat`
+  - _Mac/Linux (Git Bash)_
+    - `source ./venv/Scripts/activate`
+- Install modules (*This might take a minute..*)
+  - `python -m pip install -r ./requirements.txt`
 - Start Jupyter Notebook Server
-  - `python3 -m notebook`
+  - `python -m notebook`
 
-5.) Open your local Jupyter Server
+7.) Open your local Jupyter Server
 - Navigate to http://localhost:8888/tree in a web browser
 - Use the Notebook to step through the exercise
 
@@ -40,7 +52,6 @@ Code snippets for Spark! demos
 ## Pull OSM data you created!
 Write a query to download your data from https://overpass-turbo.eu/.
 Download as a GeoJSON.
-- Convert to a Shapefile (QGIS)
 - Add to a Leafmap map in Jupyter Notebook
 
 ## Query the data
