@@ -23,7 +23,9 @@ Code snippets for Spark! demos
 5.) Install Python (if it's not already installed) - *This is tested using Python 3.12*.
 - If using VSCode, open a `Git Bash` terminal.
 - If using Git Bash, right click in a Windows Explorer and select `open Git Bash here`.
-- Type `python` and/or `python3`. If an interpreter comes up, it's installed! If not... https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe.
+- Type `python` and/or `python3`. If an interpreter comes up, it's installed! If not...
+  - (Windows) https://www.python.org/ftp/python/3.12.7/python-3.12.7-amd64.exe.
+  - (Mac) https://www.python.org/ftp/python/3.12.7/python-3.12.7-macos11.pkg.
 - Check "Add python.exe to PATH".
 - Choose Customize installation install: `pip`, `Python test suite`, and `py launcher`.
 - Customize the install location to somewhere you will remember. I usually do `C:\Python`.
