@@ -58,3 +58,6 @@ Download as a GeoJSON.
 
 ## Query the data
 Explore your data using `<dataframe-name>.query()` function
+
+
+University data: https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx?gotoReportId=7&fromIpeds=true&sid=70365247-c69e-40c7-a078-5b9304fc3b2f&rtid=7
