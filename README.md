@@ -36,16 +36,16 @@ Code snippets for Spark! demos
   - `python -m venv ./venv`
 - Activate the virtual environment
   - _Windows_
-    - `./venv/Scripts/activate.bat`
+    - `./venv/bin/activate.bat`
   - _Mac/Linux (Git Bash)_
-    - `source ./venv/Scripts/activate`
+    - `source ./venv/bin/activate`
 - Install modules (*This might take a minute..*)
   - `python -m pip install -r ./requirements.txt`
 - Start Jupyter Notebook Server
   - `python -m notebook`
 
 7.) Open your local Jupyter Server
-- Navigate to http://localhost:8888/tree in a web browser
+- In the terminal, look for a URL with ?token= in it. Copy that whole line into your browser.
 - Use the Notebook to step through the exercise
 
 
