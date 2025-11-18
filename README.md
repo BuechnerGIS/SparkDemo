@@ -46,7 +46,7 @@ Code snippets for Spark! demos
 
 7.) Open your local Jupyter Server
 - In the terminal, look for a URL with ?token= in it. Copy that whole line into your browser.
-- Use the Notebook to step through the exercise
+- Under "Files" double click `JupyterNotebook.ipynb` and step through the exercise!
 
 
 # Exercises
